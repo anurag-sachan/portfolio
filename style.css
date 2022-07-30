@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width:83vw ;
+    padding:15px;
+}
+.container{
+    display: flex;
+    background: linear-gradient(169deg, black, royalblue, whitesmoke);
+}
+.d-sm-flex {
+    display: flex;
+}
+
+.infoContainer{
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: inline;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.image {
+    align-self: center;
+}
+
+img {
+    border-radius: 50%;
+    margin: 4em;
+}
+
+img:hover{
+transform: scale(1.1);
+transition: all 0.2s;
+}
+
+.hello{
+    font-size: 2.2em;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.name{
+    font-size: 3.4em;
+    font-weight: bold;
+    color: cyan;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+p.lead {
+    line-height: 1.7rem;
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    font-family: 'Uchen', serif;
+}
+
+.about{
+    font-size:30px;
+    margin-top: 1.5px;
+}
+
+.btn {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .btn:hover {
+    color: white;
+    background-color: DodgerBlue;
+  }
+
+.btn-sm{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 6px;
+}
+
+.contactForm h1 {
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.3em;
+    margin-top: 30px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.contactForm form{
+    margin: 15px;
+    font-size: 25px;
+}
+
+.mb-3{
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+}
+
+input#exampleInputEmail1 {
+    width: 20vw;
+}
+#emailHelp {
+    font-weight: 100;
+    font-size: 13px;
+}
+input#exampleInputPhoneNo1 {
+    width: 20vw;
+}
+#form-check {
+    flex-direction: row;
+    width: 1vw;
+}
+#exampleCheck1{
+    margin-right:7px;
+}
+label.form-check-label {
+    font-size: 15px;
+}
+
+div#TextString {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+ul.social-network.social-circle {
+    justify-content: end;
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 1em;
+}
+
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+}
+a.fa.fa-envelope {
+    border-radius: 50%;
+    height: 22px;
+    width: 21px;
+    font-size: x-large;
+}
+a.fa.fa-linkedin {
+    border-radius: 50%;
+    height: 22px;
+    width: 21px;
+    font-size: x-large;
+}
+a.fa.fa-github {
+    border-radius: 50%;
+    height: 22px;
+    width: 21px;
+    font-size: x-large;
+}
+a.fa.fa-twitter {
+    border-radius: 50%;
+    height: 22px;
+    width: 21px;
+    font-size: x-large;
+}
+
+i.fa.fa-download {
+    padding: 0px;
+}
+
+.fa:hover{
+transform: rotate(360deg);
+transition: all 0.2s;
+}
+
+.fa-envelope {
+background-color: white;
+color: black;
+}
+
+.fa-envelope:hover {
+background-color: #000000;
+color: white;
+}
+.fa-twitter {
+background-color: white;
+color: black;
+}
+
+.fa-twitter:hover {
+background-color: #2899f0;
+color: white;
+}
+
+.fa-github {
+background-color: white;
+color: black;
+}
+
+.fa-github:hover {
+background-color: #000000;
+color: white;
+}
+
+.fa-linkedin {
+background-color: white;
+color: black;
+}
+
+.fa-linkedin:hover {
+background-color: #265fbb;
+color: white;
+}
+
+@media(max-width:999px){
+
+.image{
+    display: none;
+}
+}
