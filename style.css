@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,14 +11,16 @@
 }
 .container{
     display: flex;
-    background: linear-gradient(169deg, black, royalblue, whitesmoke);
+    background: linear-gradient(108deg, black, black, royalblue);
+    flex-direction: column;
+    -webkit-font-smoothing: antialiased;
 }
 .d-sm-flex {
     display: flex;
 }
 
 .infoContainer{
-    margin: 10%;
+    margin: 10% 10% 9%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -29,6 +31,17 @@
     justify-content: center;
     flex-direction: column;
     color: whitesmoke;
+}
+
+.restInfo {
+    align-items: baseline;
+    column-gap: 2em;
+    display: flex;
+}
+
+img#stacks {
+    margin: 2em 1.5em 0em;
+    border-radius: 0;
 }
 
 .image {
@@ -51,18 +64,17 @@ transition: all 0.2s;
 }
 
 .name{
-    font-size: 3.4em;
+    font-size: 3.5em;
     font-weight: bold;
-    color: cyan;
-    font-family: 'Ibarra Real Nova', serif;
+    color: royalblue;
+    font-family: 'Graduate', cursive;
 }
 
 p.lead {
-    line-height: 1.7rem;
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-top: 1em;
     margin-bottom: 1.5em;
-    font-family: 'Uchen', serif;
+    font-variant-caps: all-small-caps;
 }
 
 .about{
@@ -70,14 +82,85 @@ p.lead {
     margin-top: 1.5px;
 }
 
+h2#skills {
+    margin: 2em 8em 0em;
+    color: white;
+    font-size: xx-large;
+    font-family: system-ui;
+    place-self: center;
+}
+
+.row {
+    justify-content: center;
+    column-gap: 2em;
+    display: flex;
+    padding: 2em;
+    margin: 0em 5em 0em;
+}
+
+img#icon {
+    margin: 2.5em 0 0.5em;
+}
+
+p.f3.b.db.link.hover-white.green.pt2 {
+    color: springgreen;
+    font-size: 1.5em;
+}
+
+p.lead.f4.w-90 {
+    color: white;
+}
+
+p.techstacks {
+    text-align: center;
+    padding: 1.5em;
+}
+
+p {
+    line-height: 1.3em;
+    color: white;
+    font-family: system-ui;
+    margin-bottom: 0.5em;
+}
+
+.col-sm.pa3.mr2 {
+    color: white;
+}
+
+code {
+    font-family: system-ui;
+    color: #1da1f2;
+}
+
+button#my-form-button {
+    width: 5em;
+    padding: 0.5em;
+    margin: 0.4em 0.5em 0;
+    align-self: center;
+}
+
+.copytext {
+    margin: 0 1em 0;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    border-top-style: inset;
+    font-size: 0.8em;
+    padding: 0.3em;
+    display: flex;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .btn {
     background-color: white;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     color: black;
     padding: 12px 20px;
     cursor: pointer;
     font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
   .btn:hover {
@@ -91,18 +174,74 @@ p.lead {
     margin-left: 6px;
 }
 
+h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+    margin: 1em 0.5em 0.5em;
+    color: springgreen;
+    text-decoration: underline;
+}
+
+form {
+    width: 290px;
+    margin: 0.5em 15% 0em;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
 .contactForm h1 {
     text-decoration: underline;
     font-weight: bold;
     text-align: left;
     font-size: 1.3em;
     margin-top: 30px;
-    font-family: 'Ibarra Real Nova', serif;
+    padding: 6px;
+    font-size: 0.9em;
 }
+
+input {
+    padding: 0.4em;
+    margin: 0.5em;
+}
+
+textarea{
+    padding: 0.4em;
+    margin: 0.5em;
+}
+
 .contactForm form{
-    margin: 15px;
+    margin: 2em 5em 0;
     font-size: 25px;
 }
+
+p#my-form-status {
+    color: springgreen;
+    font-size: medium;
+    margin: 0.5em;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 99;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background-color: white(255, 255, 255);
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: grey;
+  }
 
 .mb-3{
     font-size: 0.9em;
@@ -138,7 +277,9 @@ div#TextString {
 }
 
 ul.social-network.social-circle {
-    justify-content: end;
+    justify-content: center;
+    grid-column-gap: 0.5em;
+    margin-bottom: 5%;
     list-style: none;
     display: flex;
     padding: 10px;
@@ -187,6 +328,10 @@ transform: rotate(360deg);
 transition: all 0.2s;
 }
 
+i.fa.fa-download:hover {
+transform: none;
+}
+
 .fa-envelope {
 background-color: white;
 color: black;
@@ -227,8 +372,17 @@ color: white;
 }
 
 @media(max-width:999px){
-
 .image{
     display: none;
+}
+}
+
+@media screen and (max-width: 649px) {
+.row{
+    flex-flow:column;
+}
+
+form{
+    align-self: center;
 }
 }
