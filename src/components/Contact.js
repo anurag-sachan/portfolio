@@ -24,11 +24,11 @@ const Contact = () => {
             <div className='p-4'>
                 <b>Follow Me</b>
             </div>
-            <div className='flex flex-row px-4 grayscale'>
-                <a href='https://github.com/anurag-sachan' target='_blank'><img className='h-9 w-9 rounded-full bg-white m-1' src={git} alt="git"/></a>
-                <a href='https://twitter.com/theanuragsachan' target='_blank'><img className='h-9 w-9 rounded-full bg-white m-1' src={twitter} alt="twitter"/></a>
-                <a href='https://www.linkedin.com/in/the-anurag-sachan/' target='_blank'><img className='h-9 w-9 rounded-full bg-white m-1' src={linkedin} alt="linkedin"/></a>
-                <a href='mailto:connect2anurags@gmail.com' target='_blank'><img className='h-9 w-9 rounded-full bg-white m-1' src={mail} alt="mail"/></a>
+            <div className='flex flex-row px-4'>
+                <a href='https://github.com/anurag-sachan' target='_blank' rel='noreferrer'><img className='h-9 w-9 rounded-full bg-white m-1 hover:scale-110 duration-200' src={git} alt="git"/></a>
+                <a href='https://twitter.com/theanuragsachan' target='_blank' rel='noreferrer'><img className='h-9 w-9 rounded-full bg-white m-1 hover:scale-110 duration-200' src={twitter} alt="twitter"/></a>
+                <a href='https://www.linkedin.com/in/the-anurag-sachan/' target='_blank' rel='noreferrer'><img className='h-9 w-9 rounded-full bg-white m-1 hover:scale-110 duration-200' src={linkedin} alt="linkedin"/></a>
+                <a href='mailto:connect2anurags@gmail.com' target='_blank' rel='noreferrer'><img className='h-9 w-9 rounded-full bg-white m-1 hover:scale-110 duration-200' src={mail} alt="mail"/></a>
             </div>
         </div>
     </footer>

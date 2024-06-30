@@ -3,12 +3,13 @@ import Home from './components/Home';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
 import Work from './components/Work';
-import up from './components/images/up.svg'
+import Projects from './components/Projects';
 
 function App() {
   return (
     <div className='font-mono'>
       <Home/>
+      <Projects/>
       <Timeline/>
       <Work/>
       <Contact/>

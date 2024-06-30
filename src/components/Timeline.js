@@ -4,12 +4,12 @@ import resume from '../anurag_resume2023.pdf'
 
 const Timeline = () => {
   return (
-  <div style={{backgroundImage: `url(${stars})`}} class="h-screen p-3 flex flex-col justify-center sm:py-12">
+  <div style={{backgroundImage: `url(${stars})`}} class="bg-cover p-3 flex flex-col justify-center sm:py-12">
     <div class="py-3 sm:max-w-xl sm:mx-auto w-full px-2 sm:px-0">
-    <div className='text-center text-2xl text-white pb-12 pt-8 sm:pt-auto'>Projects</div>
+    <div className='text-center text-2xl text-white pb-12 pt-8 sm:pt-auto'>Timeline</div>
       <div class="relative text-gray-700 antialiased text-sm font-semibold">
 
-        <div class="hidden sm:block w-1 bg-blue-300 absolute h-[584px] left-1/2 transform -translate-x-1/2"></div>
+        <div class="hidden sm:block w-1 bg-blue-300 absolute h-[936px] left-1/2 transform -translate-x-1/2"></div>
 
         <div class="mt-6 sm:mt-0 sm:mb-12">
           <div class="flex flex-col sm:flex-row items-center">
@@ -20,7 +20,8 @@ const Timeline = () => {
                     March 22 - June 22
                   </div>
                   <p className='text-lg'>
-                    Java Backend Development
+                    DSA & Java Backend Dev
+                    <p className='text-base text-blue-600 underline'><a href='https://leetcode.com/anurag-sachan/' target='_blank' rel='noreferrer'>leetcode</a></p>
                   </p>
                 </div>
               </div>
@@ -42,8 +43,16 @@ const Timeline = () => {
                     Aug 22 - Dec 22
                   </div>
                   <p className='text-lg'>
-                    DevOps
+                    DevOps : CI/CD, Cloud, Distributed Systems, IaaS, Monitoring
                   </p>
+                </div><br/>
+
+                <div class="p-4 bg-white rounded shadow">
+                  <div class="text-cyan-500 font-bold">
+                    Certification:
+                  </div>
+                  <p className='underline text-blue-600'><a href='https://www.credly.com/badges/8638b152-6a33-43c0-8a54-5d8666ef46fa/public_url?trk=public_profile_see-credential' target='_blank' rel='noreferrer'>Microsoft AZ-900 : DevOps</a></p>
+                  <p className='underline text-blue-600'><a href='https://www.credly.com/badges/90b5fdef-fbc1-40b4-8187-eb4b5d317c22?trk=public_profile_see-credential' target='_blank' rel='noreferrer'>Microsoft DP-900 : Data</a></p>
                 </div>
               </div>
             </div>
@@ -64,7 +73,8 @@ const Timeline = () => {
                     Feb 23 - June 23
                   </div>
                   <p className='text-lg'>
-                    Spring Full Stack Development
+                    Java Spring Boot 3 w/ React.js Full Stack Development
+                    <p className='text-base text-blue-600 underline'><a href='https://github.com/anurag-sachan/Fullstack-SpringBoot-React-Store' target='_blank' rel='noreferrer'>🔗 Github</a></p>
                   </p>
                 </div>
               </div>
@@ -83,10 +93,11 @@ const Timeline = () => {
               <div class="w-full sm:w-1/2 sm:pl-8">
                 <div class="p-4 bg-white rounded shadow">
                   <div class="text-cyan-500 font-bold">
-                    June 23 - Present
+                    June 23 - Sept 23
                   </div>
                   <p className='text-lg'>
-                    C++
+                    Py: Flask Vue.js Redis Celery Fullstack Dev
+                    <p className='text-base text-blue-600 underline'><a href='https://github.com/anurag-sachan/Flask-Vue-Redis-Celery-FullstackStore' target='_blank' rel='noreferrer'>🔗 Github</a></p>
                   </p>
                 </div>
               </div>
@@ -99,7 +110,7 @@ const Timeline = () => {
           </div>
         </div>
       </div>
-      <a href={resume} target='_blank'><div className='self-center text-center w-1/3 text-lg sm:text-2xl bg-white text-gray-800 py-1 px-1 sm:px-3 mt-16 mx-auto rounded-md hover:bg-blue-500 hover:text-white hover:cursor-pointer'><b>↓ RESUME</b></div></a>
+      <a href={resume} target='_blank' rel='noreferrer'><div className='self-center text-center w-1/3 text-lg sm:text-2xl bg-white text-gray-800 py-1 px-1 sm:px-3 mt-16 mx-auto rounded-md hover:bg-blue-500 hover:text-white hover:cursor-pointer'><b>↓ RESUME</b></div></a>
     </div>
   </div>
   )
