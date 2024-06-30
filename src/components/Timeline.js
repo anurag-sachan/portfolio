@@ -1,6 +1,6 @@
 import React from 'react'
 import stars from './images/Stars.jpg'
-import resume from '../anurag_resume2023.pdf'
+import resume from '../anuragresume2024.pdf'
 
 const Timeline = () => {
   return (
