@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.058eb1ce.css",
-    "main.js": "/portfolio/static/js/main.8b3b24e9.js",
+    "main.css": "/portfolio/static/css/main.c0f1d901.css",
+    "main.js": "/portfolio/static/js/main.e1d644c9.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/worldquant.png": "/portfolio/static/media/worldquant.ea132e2c467219ddb855.png",
     "static/media/Stars.jpg": "/portfolio/static/media/Stars.af402c24446311826781.jpg",
+    "static/media/dp900.png": "/portfolio/static/media/dp900.0d8a3b7757a13f10d61f.png",
+    "static/media/az900.png": "/portfolio/static/media/az900.0f11266ff3364dfca165.png",
     "static/media/anurag_resume2023.pdf": "/portfolio/static/media/anurag_resume2023.3bea79ee4f727e7ee860.pdf",
+    "static/media/pfp.jpg": "/portfolio/static/media/pfp.20155c234515ef113fcc.jpg",
     "static/media/twitter.svg": "/portfolio/static/media/twitter.f98fc735ff3e4e01f002fea7e135bc9d.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.9f4bec9c68fab96b2dd265552e0b7970.svg",
     "static/media/git.svg": "/portfolio/static/media/git.b8a62b1bbf3ae3ff9026c5ec22121fd3.svg",
     "index.html": "/portfolio/index.html",
     "static/media/mail.svg": "/portfolio/static/media/mail.6593f25bd93b24fe32e77fc835b5d986.svg",
-    "static/media/up.svg": "/portfolio/static/media/up.45b6e49483028604c94ef59e1f5b4cde.svg",
-    "main.058eb1ce.css.map": "/portfolio/static/css/main.058eb1ce.css.map",
-    "main.8b3b24e9.js.map": "/portfolio/static/js/main.8b3b24e9.js.map",
+    "main.c0f1d901.css.map": "/portfolio/static/css/main.c0f1d901.css.map",
+    "main.e1d644c9.js.map": "/portfolio/static/js/main.e1d644c9.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.058eb1ce.css",
-    "static/js/main.8b3b24e9.js"
+    "static/css/main.c0f1d901.css",
+    "static/js/main.e1d644c9.js"
   ]
 }
